@@ -1,0 +1,20 @@
+#!/bin/bash --login
+
+pwd
+#source /home/hansun/.bashrc
+conda env list
+ls .conda/envs/
+source activate base
+conda activate ssa
+pip install git+https://github.com/facebookresearch/segment-anything.git
+pip install transformers==4.29.2
+pip install safetensors==0.3.0
+pip install ftfy
+cd /home/hansun/nas/hansun/CODE/Diffusion_Repo/SSA/scripts/seg/HRDA
+#python -u evaluation.py \
+#--gt_path /home/hansun/nas/hansun/DATA/segmentation/cityscapes/gtFine/val \
+#--result_path /home/hansun/nas/hansun/OUTPUT/SSA/rebuttal_mask2former_mapi2cs/labels \
+#--dataset cityscapes
+##--class_set "unknown"
+
+python run_experiments.py --config configs/hrda/mapi2cs_izar.py

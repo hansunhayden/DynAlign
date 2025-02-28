@@ -1,0 +1,7 @@
+checkpoints
+data
+__pycache__
+.idea
+.DS_Store
+mapi.sh
+installation.txt

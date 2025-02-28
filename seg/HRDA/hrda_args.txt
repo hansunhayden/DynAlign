@@ -1,0 +1,27 @@
+{
+  "config": "/home/hansun/nas/hansun/OUTPUT/MIC/gtaHR2csHR_hrda_246ef/gtaHR2csHR_hrda_246ef.json",
+  "checkpoint": "/home/hansun/nas/hansun/OUTPUT/MIC/gtaHR2csHR_hrda_246ef/iter_40000_relevant.pth",
+  "aug_test": false,
+  "inference_mode": "same",
+  "dataset": "Mapillary",
+  "model": "model",
+  "train_set": false,
+  "test_set": false,
+  "hrda_out": "",
+  "out": null,
+  "format_only": false,
+  "eval": [
+    "mIoU"
+  ],
+  "show": false,
+  "show_dir": null,
+  "gpu_collect": false,
+  "tmpdir": null,
+  "options": null,
+  "eval_options": {
+    "efficient_test": true
+  },
+  "launcher": "none",
+  "opacity": 0.5,
+  "local_rank": 0
+}

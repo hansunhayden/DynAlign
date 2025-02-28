@@ -1,0 +1,31 @@
+CONFIG = {
+    "id2label": {
+        '0': 'road',
+        '1': 'drivable fallback',
+        '2': 'sidewalk',
+        '3': 'non-drivable fallback',
+        '4': 'person',
+        '5': 'rider',
+        '6': 'motorcycle',
+        '7': 'bicycle',
+        '8': 'autorickshaw',
+        '9': 'car',
+        '10': 'truck',
+        '11': 'bus',
+        '12': 'vehicle fallback',
+        '13': 'curb',
+        '14': 'wall',
+        '15': 'fence',
+        '16': 'guard rail',
+        '17': 'billboard',
+        '18': 'traffic sign',
+        '19': 'traffic light',
+        '20': 'pole',
+        '21': 'obs-str-bar-fallback',
+        '22': 'building',
+        '23': 'bridge',
+        '24': 'vegetation',
+        '25': 'sky',
+        '255': 'unlabeled'
+    }
+}
