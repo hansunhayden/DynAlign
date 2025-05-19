@@ -154,7 +154,7 @@ CMD ["/usr/sbin/sshd", "-D", "-f", "/opt/ssh/sshd_config", "-E", "/tmp/sshd.log"
 ```
 </details>
 
-## Method
+## 🌟 Method
 **DynAlign** integrates with any UDA model, leveraging its domain-specific knowledge and enhancing it with prior knowledge from foundation models.
 
 ![DynAlign Method Overview](imgs/method.png)
