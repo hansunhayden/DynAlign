@@ -5,3 +5,6 @@ __pycache__
 .DS_Store
 mapi.sh
 installation.txt
+example.sh
+dynalign_example_pipeline.py
+dynalign_example.py
