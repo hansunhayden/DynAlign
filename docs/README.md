@@ -231,13 +231,9 @@ Big thanks to these amazing open-source works!
 If you find our work useful in your research please consider citing our paper:
 
 ```
-@misc{sun2025dynalignunsuperviseddynamictaxonomy,
-      title={DynAlign: Unsupervised Dynamic Taxonomy Alignment for Cross-Domain Segmentation}, 
-      author={Han Sun and Rui Gong and Ismail Nejjar and Olga Fink},
-      year={2025},
-      eprint={2501.16410},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.16410}, 
+@inproceedings{sundynalign,
+  title={DynAlign: Unsupervised Dynamic Taxonomy Alignment for Cross-Domain Segmentation},
+  author={Sun, Han and Gong, Rui and Nejjar, Ismail and Fink, Olga},
+  booktitle={The Thirteenth International Conference on Learning Representations}
 }
 ```
